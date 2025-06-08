@@ -1,0 +1,121 @@
+
+
+body {
+    width: 80%;
+    max-width: 1200px;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+}
+
+.container {
+    width: 300px;
+    height: 370px;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(59, 59, 59);
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.form>input[type="email"] {
+    margin-bottom: 5px;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 23px;
+     padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(77, 77, 77);
+}
+
+h1 {
+     font-family: "Lobster Two", sans-serif;
+     font-size: 2.5rem;
+     font-weight: 700;
+     color: #f4f4f4;
+     margin-bottom: 30px;
+}
+.submit {
+    width: 220px;
+    height: 23px;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.a:hover {
+    background-color: #0056b3;
+}
+
+.or {
+    color: rgba(255, 255, 255, 0.5);
+    padding: 5x 0;
+}
+
+a {
+    font-style: none;
+    color: #385898
+}
+
+.p>a{
+    color: #527deb
+}
+
+.buat {
+    color: rgba(255, 255, 255, 0.5);
+    width: 300px;
+    height: 60px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(59, 59, 59);
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1920px) {
+  body {
+    width: 1920px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  body {
+    width: 1366px;
+    margin: auto;
+  }
+}
